@@ -2,8 +2,6 @@ const Park = function (name, price, dinoCollection) {
   this.name = name;
   this.price = price;
   this.dinoCollection = ['t-rex', 'oscar'];
-  // this.dailyVisitors = [50, 10];
-  // this.totalRevenue = totalRevenue;
 }
 
 Park.prototype.addDino = function (dino) {
